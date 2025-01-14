@@ -94,10 +94,10 @@ canvas {
   z-index: 1; /* Bring calculator above particles */
   width: 320px;
   margin: 50px auto;
-  background: #1f3c36;
+  background:rgb(207 173 203 / 39%); 
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 9px 1px 17px 6px rgba(0, 0, 0, 0.3);
 }
 
 #display {
@@ -116,7 +116,7 @@ canvas {
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  background-color: #50847a;
+  background-color: rgb(207 173 203 / 29%);
   gap: 10px;
   padding: 5px;
 }
