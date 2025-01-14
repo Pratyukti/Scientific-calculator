@@ -89,15 +89,28 @@ canvas {
   background-size: cover; /* Ensure it fills the screen */
 }
 
-.calculator {
+/* .calculator {
   position: relative;
-  z-index: 1; /* Bring calculator above particles */
+  z-index: 1; /* Bring calculator above particles 
   width: 320px;
   margin: 50px auto;
   background:rgb(207 173 203 / 39%); 
   padding: 20px;
   border-radius: 12px;
   box-shadow: 9px 1px 17px 6px rgba(0, 0, 0, 0.3);
+} */
+.calculator {
+  position: relative;
+  z-index: 1; /* Bring calculator above particles */
+  width: 320px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.15); /* Semi-transparent white */
+  backdrop-filter: blur(10px); /* Frosted glass blur effect */
+  -webkit-backdrop-filter: blur(10px); /* Frosted glass blur effect for Safari */
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border for the glass effect */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
 #display {
