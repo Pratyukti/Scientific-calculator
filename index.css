@@ -104,6 +104,7 @@ canvas {
   z-index: 1; /* Bring calculator above particles */
   width: 320px;
   margin: 50px auto;
+  /* margin-top:70px ; */
   background: rgba(255, 255, 255, 0.15); /* Semi-transparent white */
   backdrop-filter: blur(10px); /* Frosted glass blur effect */
   -webkit-backdrop-filter: blur(10px); /* Frosted glass blur effect for Safari */
@@ -112,6 +113,7 @@ canvas {
   border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border for the glass effect */
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
+
 
 #display {
   width: 100%;
